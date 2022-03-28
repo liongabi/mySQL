@@ -1,0 +1,7 @@
+SELECT * FROM tabela_de_clientes LIMIT 4;
+
+SELECT * FROM tabela_de_clientes LIMIT 4,8;
+
+SELECT * FROM NOTAS_FISCAIS;
+
+SELECT * FROM notas_fiscais WHERE DATA_VENDA = '2017-01-01' LIMIT 10;
